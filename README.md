@@ -15,9 +15,9 @@ Contributions and feedback are welcomed! If you have any suggestions, improvemen
 # Notebook
 I do train those 3 models within in just one notebook. The notebook provides a step-by-step walkthrough of the project:
 
-**1. Data Preprocessing:** Importing stock data (AAPL, MSFT, AMZN, GOOGL, META) and normalization and feature engineering (P/E, ROE, Beta).
-**2. Graph Construction:** Building a fully-connected stock relationship graph and creating edge indices for PyTorch Geometric.
-**3. Model Implementation:**
+**1. Data Preprocessing**: Importing stock data (AAPL, MSFT, AMZN, GOOGL, META) and normalization and feature engineering (P/E, ROE, Beta).
+**2. Graph Construction**: Building a fully-connected stock relationship graph and creating edge indices for PyTorch Geometric.
+**3. Model Implementation**:
 - TGCN (Temporal Graph Convolutional Network).
 - Attention-TGCN (self-attention mechanism).
 - Feature-Enhanced TGCN (with financial indicators).
