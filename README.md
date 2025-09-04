@@ -35,3 +35,5 @@ You can open the notebook directly in Jupyter, Google Colab or VS Code to see th
 - PyTorch
 - PyTorch Geometric
 - Pandas, Numpy, Matplotlib, Scikit-learn
+
+# Thanks for reading. Happy analysing ^_^
