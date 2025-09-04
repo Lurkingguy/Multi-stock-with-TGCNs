@@ -15,18 +15,18 @@ Contributions and feedback are welcomed! If you have any suggestions, improvemen
 ## Notebook
 I do train those 3 models within in just one notebook. For easy-understanding, the notebook provides a step-by-step walkthrough of the project:
 
-1. Data Preprocessing: Importing stock data (AAPL, MSFT, AMZN, GOOGL, META) and normalization and feature engineering (P/E, ROE, Beta).
+**1. Data Preprocessing**: Importing stock data (AAPL, MSFT, AMZN, GOOGL, META) and normalization and feature engineering (P/E, ROE, Beta).
 
-2. Graph Construction: Building a fully-connected stock relationship graph and creating edge indices for PyTorch Geometric.
+**2. Graph Construction**: Building a fully-connected stock relationship graph and creating edge indices for PyTorch Geometric.
 
-3. Model Implementation:
+**3. Model Implementation**:
 - TGCN (Temporal Graph Convolutional Network).
 - Attention-TGCN (self-attention mechanism).
 - Feature-Enhanced TGCN (with financial indicators).
 
-4. Training & Evaluation: Training models with Adam optimizer, then tracking loss and accuracy across epochs.
+**4. Training & Evaluation**: Training models with Adam optimizer, then tracking loss and accuracy across epochs.
   
-5. Prediction: Predicting AAPL stock trend (up/down) andd generating probability outputs for investment recommendation.
+**5. Prediction**: Predicting AAPL stock trend (up/down) andd generating probability outputs for investment recommendation.
 
 You can open the notebook directly in Jupyter, Google Colab or VS Code to see the workflow, visualizations, and model performance results step by step.
 
