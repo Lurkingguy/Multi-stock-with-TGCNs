@@ -23,6 +23,7 @@ I do train those 3 models within in just one notebook. The notebook provides a s
 - TGCN (Temporal Graph Convolutional Network).
 - Attention-TGCN (self-attention mechanism).
 - Feature-Enhanced TGCN (with financial indicators).
+
 **4. Training & Evaluation:** Training models with Adam optimizer, then tracking loss and accuracy across epochs.
   
 **5. Prediction:** Predicting AAPL stock trend (up/down) andd generating probability outputs for investment recommendation.
